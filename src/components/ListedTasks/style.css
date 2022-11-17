@@ -1,0 +1,33 @@
+.Tasks-Container{
+    padding: 30px;
+    height: 90vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+table {
+    width: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 5px !important
+        }
+
+table tr {
+    box-shadow: 3px 3px 5px 2px #b8b8b8;
+    border-radius: 5px
+}
+
+table td,
+table th {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+thead {
+    box-shadow: 3px 3px 5px 2px #b8b8b8;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}

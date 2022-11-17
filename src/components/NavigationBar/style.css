@@ -1,0 +1,8 @@
+.nav-container{
+    background-color: #b1d34b;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items:center;
+}

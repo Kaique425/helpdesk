@@ -1,0 +1,19 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+.attrs-container{
+  background-color:lightgray;
+  width: fit-content;
+  border-radius:15px;
+  margin: auto;
+  padding:10px; 
+}
+.App{
+  text-align:center;
+}
+.Main-Container{
+  display:flex;
+}
