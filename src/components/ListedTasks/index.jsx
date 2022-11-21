@@ -8,15 +8,17 @@ export const ListedTasks = () => {
         <div className="Tasks-Container">
         <table>
             <thead>
+                <tr>
                 <th>N°/Area</th>
                 <th>Problema</th>
                 <th>Contato/Ramal</th>
                 <th>Local/Descrição</th>
                 <th>Tempo Valido</th>
+                </tr>
             </thead>
             <tbody>
                 {taskList.map(taskNumber => (
-                    <tr>
+                    <tr key={taskNumber}>
                         <td>38550 TECNOLOGIA DA INFORMACAO</td>
                         <td> Totvs12</td>
                         <td>
